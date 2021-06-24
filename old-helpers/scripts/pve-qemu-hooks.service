@@ -1,9 +1,0 @@
-[Unit]
-Description = PVE Qemu Server Hooks
-
-[Service]
-Type = simple
-ExecStart = /usr/lib/pve-helpers/qemu-server-hooks.sh
-
-[Install]
-WantedBy = multi-user.target
